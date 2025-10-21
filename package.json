@@ -2,13 +2,16 @@
   "name": "01-webserver",
   "version": "0.0.1",
   "description": "primer web server con Landon",
+  "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   }
 }
